@@ -8,237 +8,487 @@
 html,body{
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
-.front{   
+
+
+.front{
     height: 100%;
-    width: 100%; 
-    background-image: url(https://wallpaperaccess.com/full/2690586.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
+    width: 100%;
+    background-color: rgb(104, 16, 16);
 }
 
 
-.one{
-    color: #000;
-    font-size: 30px;
+.font{
+    padding-top: 5px;
     display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-}
-
-.one h1{
-    font-size: 30px;
-    font-weight: normal;
-    font-family: cursive;
-    font-style: italic;
-}
-
-.non h1{
-    margin-top: 120px;
-    font-size: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    position:fixed;
+    background-color: rgb(104, 16, 16);
     font-family: sans-serif;
 }
 
 
-.non p{
-    margin-top: 5px;
-} 
-
-
-.non button{
-    text-align: center;
-    padding: 10px;
-    border: none;
-    color: #fff;
-    background-color:rgb(246, 186, 32);
-    font-size: 15px;
-    margin-top: 30px;
-}
-
-
-.non button:hover{
-    color: rgb(246, 186, 32);
-    background-color: #fff;
-}
-
-
-.second{
+.font2{
     display: flex;
-    color: #fff;
-    text-align: center;
-    align-items: center;
+    gap: 50px;
+    font-weight: normal;
+}
+
+/* 
+.font2 h5:hover{
+    background-color: rgb(237, 146, 10);
+    border-radius: 25px;
+    width: 60px;
+} */
+
+
+.font2 i{
+    font-size: 22px;
+    display: none;
+}
+
+.font1 h3{
+    font-size: 25px;
 }
 
 
-.sec1{
-    width: 418px;
-    background-color:rgb(203, 172, 133);
-    height: 80px;
-}
-
-
-
-.sec2{
-    height: 80px;
-    width: 418px;
-    background-color:rgb(170, 121, 62);
-}
-
-
-
-.sec3{
-    height: 80px;
-    width: 418px;
-    background-color:rgb(104, 61, 7);
-}
-
-
-.room{
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 1, 0.59)50%,rgba(0, 0, 1, 0.59)50%), url(https://photos.mandarinoriental.com/is/image/MandarinOriental/dubai-suite-skyline-view-bedroom);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #fff;
-}
-
-
-.room h1{
-    padding-top: 50px;
-    color: #fff;
-    font-family: Helvetica;
-}
-
-
-.rooms{
-    margin-top: 20px;
+.fontt{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
-.room1{
-    height: 450px;
-    width: 350px;
-    background-color: #0000005b;
-}
-
-
-.room1 a{
+    justify-content: space-around;
+    padding-top: 150px;
+    font-family: sans-serif;
     color: #fff;
+    /* height: calc(100% - (-10px)); */
+    /* height: 80%; */
+    width: 100%;
 }
 
-.room1 img{
-    width: 350px;
-    height: 250px;
+
+.fontt1{
+    height: 300px;
+    width: 500px;
+    /* background-color: blueviolet; */
+}
+
+
+
+
+.fontt2 h2{
+    color: rgb(237, 146, 10);
+    padding-top: 80px;
+    font-size: 30px;
+}
+
+
+.fontt2 h3{
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.one{
+    padding: 12px;
+    margin-top: 40px;
+    color: rgb(104, 16, 16);
+    background-color:rgb(237, 146, 10);
+    border-radius: 20px;
+    font-weight: bold;
+    border: #fff;
+}
+
+
+
+.two{
+    padding: 10px;
+    margin-top: 40px;
+    background-color: transparent;
+    color:#fff;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #fff;
 }
 
 
 .about{
     height: 80%;
     width: 100%;
+    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: row;
+    text-align: center;
     font-family: sans-serif;
-    color: #fff;
-    justify-content: space-evenly;
-    background-color: rgb(95, 53, 2);
+    justify-content:space-around;
+    align-items: center;
 }
 
 
-.about1{
-    display: flex;
-    gap: 15px;
-    margin-top: 30px;
+
+.about1 h2{
+    padding-top: 50px;
+    font-size:30px;
+    padding-bottom: 30px;
 }
 
-.image{
-    margin-top: 30px;
+
+.about1 p{
+    /* padding-top: 10px; */
+    line-height: 20px;
 }
 
 .about1 img{
-    height: 400px;
-    width: 250px;
+      width: 500px;
 }
 
 
-
-.about2 p{
-    margin-top: 30px;
+.about1 video{
+    width: 400px;
+    height: 700px;
 }
 
 
-.about2 button{
-    margin-top: 30px;
-    border:1.5px solid #fff;
+.services{
+    height: 150%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.851);
     color: #fff;
-    background-color: transparent;
-    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+
+
+.services h1{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+
+.services1{
+    float: left;
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 40px;
+    /* background-color: brown; */
+}
+
+
+.services1 img{
+    height: 250px;
+    width: 350px;
+}
+
+
+.gallery{
+    height: 135%;
+    width: 100%;
+}
+
+
+.gallery1{
+    height: 300px;
+    width: 350px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+
+.gallery h1{
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.gallery1 img{
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: center;
+}
+
+
+.gallery1 img:hover{
+    scale: 1.2;
+} 
+
+
+.contact{
+    height: 100%;
+    width: 100%;
+}
+
+
+.contact h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+
+.contact1{
+    height: 450px;
+    width: 750px;
+    background-color: rgb(215, 226, 239);
+    margin-left: 240px;
+    text-align: left;
+    color: black;
+}
+
+.contact1 p{
+    padding-top: 25px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.contact1 input{
+    width: 90%;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+
+
+.contact1 textarea{
+    margin-left: 10px;
+    width: 90%;
+}
+
+
+.contact1 button{
+    padding: 12px;
+    font-size: 15px;
+    margin-left: 10px;
     font-weight: bold;
+    color: #fff;
+    background-color: rgb(68, 3, 3);
+    border-radius: 25px;
+    width: 100px;
 }
 
 
 .last{
-    height: 80%;
+    height: 50%;
     width: 100%;
-    background:linear-gradient(to top, rgba(0, 0, 1, 0.59)50%,rgba(0, 0, 1, 0.59)50%), url(http://www.vertexhsb.com/Upload/1551947866.jpg);
-    text-align: center;
-    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.851);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
 }
 
-.last h1{
-    padding-top: 50px;
-    margin-bottom: 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-
-.last i{
-    color: rgb(203, 172, 133);
-    font-size: 30px;
+.lastt{
+    padding-top: 100px;
 }
 
 
-.last p{
-    margin-top: 20px;
-    letter-spacing: .8px;
-    line-height: 25px;
-     font-family: "Ga Maamli", sans-serif;
-     font-weight: 400;
-     font-style: normal;
-}
+@media (max-width:450px){
+    .front{
+        background-color: rgb(104, 16, 16);
+        height: 80%;
+    }
 
-
-
-@media(max-width:600px){
-    
-     .room{
-        height: 230%;
+    .font{
         width: 100%;
-     }
+    }
 
-     .rooms{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding-top: 50px; 
-     }
+    .font2 h5{
+        display: none;
+    }
 
-     .about{
-        height: 160%;
-        width: 100%;
+    .font2 i{
+        display: block;
+    }
+
+    .fontt{
         display: flex;
-        flex-direction: column;
-        font-size: 15px;
+        flex-direction:column-reverse;
         text-align: center;
-     }
+        padding: 0px;
+        padding-top: 50px;
+    }
+     
+
+    .fontt img{
+        width: 400px;
+        height: 300px;
+        margin-left: 80px;
+    }
+
+    .fontt2 h2{
+         padding: 0px;  
+    }
+
+
+    .about{
+        
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+     
+    .about1 h2{
+       font-size:30px;
+    }
+
+
+    .about1 p{
+       line-height: 20px;
+    }
+
+
+    .services{
+        height: 280%;
+        width: 100%;
+    }
+
+    .services1{
+        margin-left: 20px;
+    }
+
+
+    .gallery{
+        height: 240%;
+        width: 100%;
+    }
+
+    .gallery1{
+        margin-left: 35px;
+    }
+
+
+    .contact1{
+        width: 300px;
+        margin-left: 60px;
+    }
+
+    .contact{
+        height: 80%;
+    }
+
+
+    .last{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
 
 }
+
+
+
+@media (max-width:400px){
+    .front{
+        background-color: rgb(104, 16, 16);
+        height: 100%;
+    }
+
+    .font{
+        width: 100%;
+    }
+
+    .font2 h5{
+        display: none;
+    }
+
+    .font2 i{
+        display: block;
+    }
+
+    .fontt{
+        display: flex;
+        flex-direction:column-reverse;
+        text-align: center;
+        padding: 0px;
+        padding-top: 50px;
+    }
+     
+
+    .fontt img{
+        width: 400px;
+        height: 300px;
+        margin-left: 10px;
+    }
+
+    .fontt2 h2{
+         padding: 0px;  
+    }
+
+
+    .about{
+        
+        height: 120%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+     
+    .about1 h2{
+       font-size:30px;
+    }
+
+
+    .about1 p{
+       line-height: 20px;
+    }
+
+
+    .services{
+        height: 380%;
+        width: 100%;
+    }
+        
+    .services1{
+        margin-left: 10px;
+    }
+    
+
+    .gallery{
+        height: 340%;
+        width: 100%;
+    }
+
+    .gallery1{
+        margin-left: 10px;
+    }
+
+
+    .contact1{
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    .contact{
+        height: 100%;
+    }
+
+
+    .last{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+}
+
