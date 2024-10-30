@@ -298,6 +298,113 @@ html,body{
 }
 
 
+
+
+@media (max-width:550px){
+    .front{
+        background-color: rgb(104, 16, 16);
+        height: 100%;
+    }
+
+    .font{
+        width: 100%;
+    }
+
+    .font2 h5{
+        display: none;
+    }
+
+    .font2 i{
+        display: block;
+    }
+
+    .fontt{
+        display: flex;
+        flex-direction:column-reverse;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+     
+
+    .fontt img{
+        width: 400px;
+        height: 300px;
+        margin-left: 80px;
+    }
+
+    .fontt2 h2{
+         padding: 0px;  
+    }
+
+
+    .about{
+        
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+     
+    .about1 h2{
+        padding-top: 0%;
+       font-size:30px;
+    }
+
+
+    .about1 p{
+       line-height: 20px;
+    }
+
+
+    .services{
+        height: 335%;
+        width: 100%;
+    }
+        
+    .services1{
+        margin-left: 80px;
+    }
+    
+
+    .gallery{
+        height: 300%;
+        width: 100%;
+        background-color: antiquewhite;
+    }
+
+    .gallery1{
+        margin-top: 6%;
+        margin-left: 80px;
+    }
+
+
+    .contact1{
+        width: 450px;
+        margin-left: 40px;
+    }
+
+    .contact{
+        height: 100%;
+    }
+
+
+    .last{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+}
+
+
+
+
+
+
 @media (max-width:450px){
     .front{
         background-color: rgb(104, 16, 16);
@@ -418,7 +525,8 @@ html,body{
         display: flex;
         flex-direction:column-reverse;
         text-align: center;
-        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 50px;
     }
      
